@@ -9,9 +9,7 @@ export default defineConfig(({ mode }) => {
     server: {
       host: "0.0.0.0",
       port: process.env.PORT || 5173,
-      proxy: isProduction
-        ? undefined // Không cần proxy trong production
-        : { "/api": "http://localhost:8001" }, // Proxy cho môi trường dev
+      proxy: isProduction ? undefined : { "/api": "http://localhost:8001" },
     },
     define: {
       "process.env.VITE_BACKEND_URL": JSON.stringify(

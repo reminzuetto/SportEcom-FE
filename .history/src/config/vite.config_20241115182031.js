@@ -7,8 +7,8 @@ export default defineConfig(({ mode }) => {
 
   return {
     server: {
-      host: "0.0.0.0",
-      port: process.env.PORT || 5173,
+      host: "0.0.0.0", // Lắng nghe từ mọi địa chỉ IP
+      port: process.env.PORT || 5173, // Sử dụng cổng do Render cung cấp hoặc mặc định 5173
       proxy: isProduction
         ? undefined // Không cần proxy trong production
         : { "/api": "http://localhost:8001" }, // Proxy cho môi trường dev
