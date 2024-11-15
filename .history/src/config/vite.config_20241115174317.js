@@ -13,9 +13,7 @@ export default defineConfig(({ mode }) => {
     },
     define: {
       "process.env.VITE_BACKEND_URL": JSON.stringify(
-        isProduction
-          ? "https://sportecom-be.onrender.com"
-          : "http://localhost:8001"
+        isProduction ? "https://sportecom-be.onrender.com" : "http://localhost:8001"
       ),
     },
     plugins: [react()],
