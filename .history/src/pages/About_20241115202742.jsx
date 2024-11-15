@@ -67,69 +67,69 @@ const ImageContainer = styled.div`
 const Image1 = styled.div`
   width: 100%;
   height: 100%;
-  background-image: url("/src/assets/anh1.jpg");
+  background-image: url("/src/assets/anh1.jpg"); /* Cập nhật cú pháp đúng */
   background-size: cover;
   background-position: center;
-  animation: changeImage1 9s infinite cubic-bezier(0.4, 0, 0.2, 1);
+  animation: changeImage1 9s infinite cubic-bezier(0.4, 0, 0.2, 1); /* Cập nhật cú pháp đúng */
 `;
 
 const Image2 = styled.div`
   width: 100%;
   height: 100%;
-  background-image: url("/src/assets/anh2.jpg");
+  background-image: url("/src/assets/anh2.jpg"); /* Cập nhật cú pháp đúng */
   background-size: cover;
   background-position: center;
-  animation: changeImage2 9s infinite cubic-bezier(0.4, 0, 0.2, 1);
+  animation: changeImage2 9s infinite cubic-bezier(0.4, 0, 0.2, 1); /* Cập nhật cú pháp đúng */
 `;
 
 const Image3 = styled.div`
   width: 100%;
   height: 100%;
-  background-image: url("/src/assets/anh3.jpg");
+  background-image: url("/src/assets/anh3.jpg"); /* Cập nhật cú pháp đúng */
   background-size: cover;
   background-position: center;
-  animation: changeImage3 9s infinite cubic-bezier(0.4, 0, 0.2, 1);
+  animation: changeImage3 9s infinite cubic-bezier(0.4, 0, 0.2, 1); /* Cập nhật cú pháp đúng */
 
   @keyframes changeImage1 {
     0% {
-      background-image: url("/src/assets/anh1.jpg");
+      background-image: url("/src/assets/anh1.jpg"); /* Cập nhật cú pháp đúng */
     }
     33% {
-      background-image: url("/src/assets/anh2.jpg");
+      background-image: url("/src/assets/anh2.jpg"); /* Cập nhật cú pháp đúng */
     }
     66% {
-      background-image: url("/src/assets/anh3.jpg");
+      background-image: url("/src/assets/anh3.jpg"); /* Cập nhật cú pháp đúng */
     }
     100% {
-      background-image: url("/src/assets/anh1.jpg");
+      background-image: url("/src/assets/anh1.jpg"); /* Cập nhật cú pháp đúng */
     }
   }
   @keyframes changeImage2 {
     0% {
-      background-image: url("/src/assets/anh2.jpg");
+      background-image: url("/src/assets/anh1.jpg"); /* Cập nhật cú pháp đúng */
     }
     33% {
-      background-image: url("/src/assets/anh3.jpg");
+      background-image: url("/src/assets/anh2.jpg"); /* Cập nhật cú pháp đúng */
     }
     66% {
-      background-image: url("/src/assets/anh1.jpg");
+      background-image: url("/src/assets/anh3.jpg"); /* Cập nhật cú pháp đúng */
     }
     100% {
-      background-image: url("/src/assets/anh2.jpg");
+      background-image: url("/src/assets/anh1.jpg"); /* Cập nhật cú pháp đúng */
     }
   }
   @keyframes changeImage3 {
     0% {
-      background-image: url("/src/assets/anh3.jpg");
+      background-image: url("/src/assets/anh1.jpg"); /* Cập nhật cú pháp đúng */
     }
     33% {
-      background-image: url("/src/assets/anh1.jpg");
+      background-image: url("/src/assets/anh2.jpg"); /* Cập nhật cú pháp đúng */
     }
     66% {
-      background-image: url("/src/assets/anh2.jpg");
+      background-image: url("/src/assets/anh3.jpg"); /* Cập nhật cú pháp đúng */
     }
     100% {
-      background-image: url("/src/assets/anh3.jpg");
+      background-image: url("/src/assets/anh1.jpg"); /* Cập nhật cú pháp đúng */
     }
   }
 `;
