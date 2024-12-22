@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Các tệp môi trường
+.env
+.env.local
+.env.*.local
+
+# Các tệp cấu hình của IDE
+.vscode/
+.idea/
+
+# Các tệp hệ thống của OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Các thư mục build của frontend
+dist/
+build/
+
+# Cache và tệp tạm thời
+.cache/
+
+# Các tệp tạo ra bởi các công cụ build khác
+*.tgz
+*.bak
